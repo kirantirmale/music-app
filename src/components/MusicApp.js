@@ -12,7 +12,7 @@ import {
 
 const MusicApp = () => {
   const [songs, setSongs] = useState([]);
-  const [search, setSearch] = useState("Hindi");
+  const [search, setSearch] = useState("Infinity X Jab Tak");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(1);
